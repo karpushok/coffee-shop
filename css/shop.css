@@ -1,0 +1,449 @@
+/* body settings */
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+/* Menu cover settings */
+.header__hero {
+    background-color: #FFF0ED;
+    width: 100vw;
+    height: 40rem;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+.main_menu {
+    display: block;
+    justify-content: space-around;
+    width: 50vw;
+}
+.main_menu_name {
+    font-size: 4rem;
+    font-weight: 300;
+    color:#393939;
+    margin-top: 10rem;
+}
+.main_menu__image {
+    width: 20vw;
+    height: 40vw;
+}
+.main_menu__description {
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+    width: 25vw;
+    color:#393939;
+    padding-bottom: 2rem;
+}
+
+#shop__page {
+    color: #5BACC3;
+}
+/* Header section settings */
+.header_line {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF0ED;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.logo_header {
+    width: 4rem;
+    height: auto;
+} 
+.header_titles {
+    display: flex;
+    list-style: none;
+}
+.header_info {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding-inline-start: 0;
+}
+.company {
+    font-size: 4rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #393939;
+}
+.logo_header {
+    width: 5rem;
+}
+
+
+/* Navigation section settings*/
+.menu_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #393939;
+    height: 8rem;
+    margin: 0;
+    padding-left: 0;
+}
+.menu_info {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.blue_line {
+    color: #5BACC3;
+    font-weight: bold;
+}
+
+
+/* Product settings */
+.our_products__section {
+    background-color: #F7F7F7;
+    padding-bottom: 3rem;
+}
+
+.our_products__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.our_products__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    text-align: center;
+    border-radius: 1vw;
+    box-shadow: 0 4px 10px rgba(145, 145, 145, 0.5);
+    padding-top: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.our_products-price__item {
+    text-align: start;
+}
+.position_name__description {
+    color: #909090;
+}
+.our_products__price {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF0ED;
+    margin-bottom: 0;
+    border-radius: 0 0 1vw 1vw;
+    padding: 1rem 0;
+}
+
+.our_products__product_image {
+    width: 9rem;
+    height: 18rem;
+}
+.position_name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #393939;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.description {
+    margin-left: 35vw;
+    width: 30vw;
+    font-style: italic;
+    text-align: center;
+    color: #393939;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.price {
+    text-align: center;
+    color: #5BACC3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+.button_view_all {
+    display: block;
+    margin: auto;
+}
+
+/* promotion section*/
+.our-products__about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;  
+}
+.product-icon {
+    width: 3rem;
+}
+.our-products__image {
+    height: 13rem;
+    transition: transform 2s ease;
+}
+.our_products__icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.our-products__picture {
+    background-image: url(../assets/coldbrewbackground.png);
+    background-size: cover;
+    padding: 2rem;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 10rem;
+    text-align: center;
+    position: relative;
+}
+.our-products__border {
+    position: absolute;
+    outline: 5px solid #5BACC3;
+    width: 19rem;
+    height: 19rem;
+    top: -1rem;
+    left: -1rem;
+}
+.our-products__picture:hover .our-products__image {
+    transform: rotate(360deg);
+}
+
+/* button settings */
+button {
+    width: 16rem;
+    height: 4rem;
+    background-color: #5BACC3;
+    color:#F7F7F7;
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 200;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.button-blue {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.button-shop {
+    margin: 0 !important;
+}
+.button-black__border {
+    outline: 2px solid black;
+    width: 16rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.5rem;
+    left: -0.5rem;
+    color:#F7F7F7;
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration:none;
+    text-transform: uppercase;
+    display: flex;
+}
+.button-black__border span {
+    margin: auto;
+}
+.button-blue:active .button-black__border {
+    top: 0;
+    left: 0;
+}
+
+/* special offer settings */
+.discounts {
+    text-align: center;
+    background-color: #393939;
+    color: #F7F7F7;
+    font-size: 3rem;
+    border: none;
+    margin: 10vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 1s ease;
+} 
+.discounts:hover {
+    background-color: #5BACC3;
+}
+
+/* Footer settings */
+.social_buttom:hover {
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+    background-image: url(../assets/coffee-beans-logo-and-footer.svg), url(../assets/coffee-beans-logo-and-footer.svg);
+    background-size: 10rem;
+    background-repeat:no-repeat;
+    background-position-x: -3.5rem, 105%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.footer_nav {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #393939;
+}
+.info_nav {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.days_is_bolded {
+    font-weight: bolder;
+}
+.social_button {
+    width: 3rem;
+}
+
+/* mobile settings */
+@media (max-width: 480px) {
+.logo_header {
+    width: 2rem;
+}
+.company {
+    font-size: 1.5rem;
+}  
+.header_info {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+.header__hero {
+    height: 25rem;
+}
+.main_menu {
+    height: 40rem;
+}
+.main_menu_name {
+    margin: 0;
+    padding-top: 3rem;
+    font-size: 2rem;
+} 
+.menu_info {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.menu_list {
+    height: 4rem;
+}
+.main_menu__description {
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    width: 50vw;
+    color:#393939;
+    padding-bottom: 2rem;
+}
+.description {
+    margin-left: 15vw;
+    width: 70vw;
+    font-size: 1rem;
+}
+footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10vw;
+    background-image: none;
+}
+.footer_nav {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.info_nav {
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+.days_is_bolded {
+    font-weight: bolder;
+}
+.social_button {
+    width: 1rem;
+}
+
+.our_products__items {
+    width: 100vw;
+    height: 30rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.our_products__product_image {
+    width: 6rem;
+    height: 12rem;
+}
+.main_menu__image {
+    padding-top: 2rem;
+    width: 6rem;
+    height: 12rem;
+}
+.position_name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.our_products__cards {
+    display: block;
+    justify-content: space-between;
+}
+.our_products__section {
+    align-items: center;
+}
+.special_offer {
+    font-size: 2rem;
+    padding: 1rem;
+}
+}
+/* tablet settings */
+@media ((min-width: 481px) and (max-width: 1024px)){
+.our_products__items {
+    width: 15rem;
+    height: 25rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.our_products__product_image {
+    width: 8rem;
+    height: 16rem;
+}
+.main_menu__image {
+    padding-top: 5rem;
+    width: 15rem;
+    height: 30rem;
+}
+footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.position_name {
+    font-size: 2rem;
+}
+}

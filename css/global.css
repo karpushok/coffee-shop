@@ -1,0 +1,281 @@
+/* body settings */
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+/* Menu cover settings */
+.main_menu {
+    background-image: url(../Assets/coffee-circle.jpg);
+    width: 100vw;
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.main_menu__content {
+    display: flex;
+    width: 16rem;
+    height: 8rem;
+    background-color: #393939;
+}
+.main_menu__border {
+    position: absolute;
+    outline: 3px solid #5BACC3;
+    width: 16rem;
+    height: 8rem;
+    top: -0.6rem;
+    left: -0.6rem;
+}
+.main_menu__name {
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;    
+}
+.main_menu__button {
+    position: relative;
+    margin: auto;
+}
+
+#menu__page {
+    color: #5BACC3;
+}
+/* Header section settings */
+.header_line {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF0ED;
+    padding-bottom: 1rem;
+}
+.logo_header {
+    width: 5rem;
+    height: auto;
+} 
+.header_titles {
+    display: flex;
+    list-style: none;
+    padding-top: 0;
+}
+.header_info {
+    padding-top: 0;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.company {
+    font-size: 4rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #393939;
+}
+.logo_header {
+    width: 5rem;
+}
+
+
+/* Navigation section settings*/
+.menu_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #393939;
+    height: 8rem;
+    margin: 0;
+    padding-left: 0;
+}
+.menu_info {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.blue_line {
+    color: #5BACC3;
+    font-weight: bold;
+}
+
+
+/* Product settings */
+.pink_coloured {
+    background-color: #FFF0ED;
+    margin-top: 0;
+    padding-bottom: 3rem;
+}
+.light_coloured {
+    background-color: #F7F7F7;
+    padding-bottom: 3rem;
+}
+.section_menu {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    color: #393939;
+    margin: 0;
+}
+.position_name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #393939;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.description {
+    margin-left: 35vw;
+    width: 30vw;
+    font-style: italic;
+    text-align: center;
+    color: #393939;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+li {
+    padding-top: 3rem;
+}
+.price {
+    text-align: center;
+    color: #5BACC3;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+.button_view_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 16vw;
+    height: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 42vw;
+    background-color: #5BACC3;
+    color:#F7F7F7;
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 200;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+/* Footer settings */
+.social_buttom:hover {
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#F7F7F7;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.footer_nav {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #393939;
+}
+.info_nav {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.days_is_bolded {
+    font-weight: bolder;
+}
+.social_button {
+    width: 3rem;
+}
+
+/* tablet settings */
+@media ((min-width: 481px) and (max-width: 1024px)){
+footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+}
+
+/* mobile settings */
+@media (max-width: 480px) {
+.logo_header {
+    width: 2rem;
+}
+.company {
+    font-size: 2rem;
+}  
+.header_info {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.main_menu__name {
+    font-size: 3rem;
+} 
+.menu_info {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.menu_list {
+    height: 4rem;
+}
+.description {
+    margin-left: 15vw;
+    width: 70vw;
+    font-size: 1rem;
+}
+footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10vw;
+}
+.footer_nav {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.info_nav {
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+.days_is_bolded {
+    font-weight: bolder;
+}
+.social_button {
+    width: 1rem;
+}
+button {
+    width: 40vw;
+    height: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 30vw;
+}
+.position_name {
+    font-size: 2rem;
+}
+.section_menu {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+li {
+    padding-top: 1rem;
+}
+}
